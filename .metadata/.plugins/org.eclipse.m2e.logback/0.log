@@ -1,0 +1,11 @@
+2025-08-28 17:12:57,292 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-08-28 17:39:26,971 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.chillbilling:BackendChillBilling:0.0.1-SNAPSHOT @ C:\Users\PRABAS\Desktop\Chill-Billing\BackendChillBilling\pom.xml.
+2025-08-28 17:39:34,199 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BackendChillBilling/src/main/java
+2025-08-28 17:39:34,206 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BackendChillBilling/src/main/resources
+2025-08-28 17:39:34,210 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BackendChillBilling/src/main/resources
+2025-08-28 17:39:34,213 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BackendChillBilling/src/test/java
+2025-08-28 17:39:34,217 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BackendChillBilling/src/test/resources
+2025-08-28 17:39:35,796 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 12 sec
+2025-08-28 17:40:07,756 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-28 17:40:07,855 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-28 17:40:07,875 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\PRABAS\Desktop\Chill-Billing\BackendChillBilling\src\test\resources
