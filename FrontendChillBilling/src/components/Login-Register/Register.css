@@ -1,0 +1,154 @@
+.register-page {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: #ebe5e5;
+}
+
+.logo {
+  width: 70px;
+  height: 80px;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login {
+  background-color: #000;
+  color: white;
+  border-radius: 30px;
+  padding: 6px 16px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login:hover, .register-btn:hover {
+  background-color: #0056b3;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  padding: 35px 200px 0 100px;
+  
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 350px;
+}
+
+.register-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reg-text {
+  text-align: center;
+  line-height: 1;
+  font-size: 24px;
+}
+
+.line1,
+.line2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-r {
+  font-size: 150px;
+  font-weight: bold;
+  color: #ebe5e5;
+  -webkit-text-stroke: 1px #000000ff;
+  margin: 0 5px;
+}
+
+.registe-word {
+  display: inline-block;
+  position: relative;
+  top: -45px;
+  left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.line2 .text1 {
+  position: relative;
+  right: 20px;
+  bottom: 50px;
+  font-weight: 700;
+}
+
+.line2 .text2 {
+  position: relative;
+  left: 100px;
+  bottom: 50px;
+  font-weight: 700;
+}
+
+
+.register-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.register-btn {
+  margin-top: 10px;
+  padding: 8px;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+
+}
+
+.message {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 10px 40px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  background: #ebe5e5;
+}
